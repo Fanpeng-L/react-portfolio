@@ -8,14 +8,21 @@ import node from "../assets/node.png";
 import python from "../assets/python.png";
 import mongo from "../assets/mongo.png";
 import git from "../assets/git.png";
+import express from "../assets/express.png";
 
 const Skills = () => {
   return (
-    <section id="skills" className="w-full mb-20 bg-slate-900 text-gray-100">
+    <section
+      id="skills"
+      className="text-md sm:text-xl w-full mb-20 bg-slate-900 text-gray-100"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl  font-bold inline border-b-4 border-[#92D4E0]">
+          <p
+            className="text-4xl sm:text-6xl  font-bold inline-block border-b-4 pb-1 border-[#92D4E0] 
+          transition ease-in duration-300 hover:-translate-y-1"
+          >
             Skills
           </p>
           <p className="py-4">These are the skills that I've worked with</p>
@@ -48,6 +55,10 @@ const Skills = () => {
           <div className="hover:scale-110 duration-300">
             <img className="w-16 mx-auto" src={node} alt="html icon" />
             <p className="my-4">Node</p>
+          </div>
+          <div className="hover:scale-110 duration-300">
+            <img className="w-16 mx-auto" src={express} alt="express icon" />
+            <p className="my-4">Express</p>
           </div>
           <div className="hover:scale-110 duration-300">
             <img className="w-16 mx-auto" src={mongo} alt="html icon" />
