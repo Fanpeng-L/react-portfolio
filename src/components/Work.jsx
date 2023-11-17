@@ -4,7 +4,7 @@ import realEstate from "../assets/realestate.jpg";
 
 const Work = () => {
   return (
-    <section className="bg-slate-900 text-gray-100">
+    <section id="work" className="w-full mb-20 bg-slate-900 text-gray-100 ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#92D4E0]">
@@ -13,14 +13,80 @@ const Work = () => {
           <p className="py-6">Check out my recent work</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div
             style={{ backgroundImage: `url(${workImg})` }}
             className="shadow-lg shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-gray-100 tracking-wider">
+              <span className="text-2xl font-bold text-gray-100 tracking-wider flex justify-center items-center">
+                Github Profile Search
+              </span>
+              <div className="pt-4 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${realEstate})` }}
+            className="shadow-lg shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-gray-100 tracking-wider flex justify-center items-center">
+                Real Estate App
+              </span>
+              <div className="pt-4 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${workImg})` }}
+            className="shadow-lg shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-gray-100 tracking-wider flex justify-center items-center">
                 React App
+              </span>
+              <div className="pt-4 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${realEstate})` }}
+            className="shadow-lg shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-gray-100 tracking-wider flex justify-center items-center">
+                Real Estate App
               </span>
               <div className="pt-4 text-center">
                 <a href="/">

@@ -4,7 +4,10 @@ import Profile from "../assets/profile_picture.png";
 
 const Hero = () => {
   return (
-    <main className="w-full h-screen bg-slate-900 text-gray-100 pt-12 sm:pt-0 ">
+    <main
+      id="hero"
+      className="w-full h-screen bg-slate-900 text-gray-100 pt-12 sm:pt-0 "
+    >
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p>Hi, my name is</p>
         <h1 className="pt-1 text-4xl sm:text-6xl font-bold text-[#92D4E0]">

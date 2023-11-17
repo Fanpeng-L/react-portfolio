@@ -7,11 +7,17 @@
 @layer base {
   body {
     @apply font-[Raleway];
+    background-color: rgb(15 23 42);
   }
   li {
     @apply px-4;
     @apply cursor-pointer;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 150px);
 }
 
 .content-div {

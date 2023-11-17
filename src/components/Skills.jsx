@@ -11,7 +11,7 @@ import git from "../assets/git.png";
 
 const Skills = () => {
   return (
-    <section className="bg-slate-900 text-gray-100">
+    <section id="skills" className="w-full mb-20 bg-slate-900 text-gray-100">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
