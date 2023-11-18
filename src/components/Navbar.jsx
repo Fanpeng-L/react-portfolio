@@ -2,7 +2,7 @@ import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/images/logo.png";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import resume from "../assets/Fanpeng-Li-Resume.pdf";
@@ -45,7 +45,7 @@ const Navbar = () => {
             className="hover:transition-all ease-in-out duration-300 hover:underline 
           hover:decoration-[#92D4E0] hover:-translate-y-1 underline-offset-4 hover:text-[#92D4E0]"
           >
-            <a href="#work">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li
             className="hover:transition-all ease-in-out duration-300 hover:underline 
@@ -97,7 +97,12 @@ const Navbar = () => {
           className="py-6 text-3xl hover:font-bold hover:text-[#92D4E0] duration-600 
         transition ease-in"
         >
-          <Link onClick={handleClick} to="work" smooth={true} duration={300}>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={300}
+          >
             Projects
           </Link>
         </li>

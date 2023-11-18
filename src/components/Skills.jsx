@@ -1,14 +1,14 @@
 import React from "react";
-import css from "../assets/css.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import react from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png";
-import python from "../assets/python.png";
-import mongo from "../assets/mongo.png";
-import git from "../assets/git.png";
-import express from "../assets/express.png";
+import css from "../assets/images/css.png";
+import html from "../assets/images/html.png";
+import javascript from "../assets/images/javascript.png";
+import react from "../assets/images/react.png";
+import tailwind from "../assets/images/tailwind.png";
+import node from "../assets/images/node.png";
+import python from "../assets/images/python.png";
+import mongo from "../assets/images/mongo.png";
+import git from "../assets/images/git.png";
+import express from "../assets/images/express.png";
 
 const Skills = () => {
   return (
