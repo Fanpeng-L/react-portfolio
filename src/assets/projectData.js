@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import githubSearchImg from "../assets/images/github-search.png";
 import shoppingCartImg from "../assets/images/shopping-cart.png";
-import workoutTracker from "../assets/images/Workout Tracker MERN.png";
+import workoutTrackerImg from "../assets/images/Workout-Tracker-MERN.png";
 
 const projectData = [
   {
@@ -20,7 +20,7 @@ const projectData = [
   },
   {
     id: uuidv4(),
-    image: workoutTracker,
+    image: workoutTrackerImg,
     title: "Workout Tracker",
     demoLink: "https://main--workout-track-mern-project.netlify.app/",
     codeLink: "https://github.com/Fanpeng-L/workout-track-mern",
