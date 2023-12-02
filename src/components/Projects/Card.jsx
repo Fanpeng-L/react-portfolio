@@ -11,7 +11,7 @@ const Card = ({ id, image, title, demoLink, codeLink }) => {
       <div className="opacity-0 transition ease-in group-hover:opacity-100 ">
         <span
           className="text-2xl font-bold text-gray-100 tracking-wider flex 
-          justify-center items-center"
+          justify-center items-center px-4 text-center"
         >
           {title}
         </span>
